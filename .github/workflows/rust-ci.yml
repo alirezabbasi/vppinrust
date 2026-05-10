@@ -50,6 +50,9 @@ jobs:
       - name: Docs (warnings denied)
         run: RUSTDOCFLAGS="-D warnings" cargo doc --workspace --all-features --no-deps
 
+      - name: Conformance harness
+        run: ./scripts/ci/conformance.sh
+
       - name: Install cargo-audit
         run: cargo install cargo-audit --locked
 

@@ -8,6 +8,7 @@ cargo fmt --all -- --check
 cargo clippy --workspace --all-targets --all-features -- -D warnings
 cargo test --workspace --all-features
 RUSTDOCFLAGS="-D warnings" cargo doc --workspace --all-features --no-deps
+./scripts/ci/conformance.sh
 
 if command -v cargo-audit >/dev/null 2>&1; then
   cargo audit

@@ -1,0 +1,6 @@
+{
+  "module": "sample",
+  "packets_in": 1000,
+  "packets_out": 995,
+  "drops": 5
+}

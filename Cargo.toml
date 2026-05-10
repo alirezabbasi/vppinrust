@@ -3,6 +3,8 @@ members = [
   "crates/vpp-core",
   "crates/vpp-runtime",
   "crates/vpp-controlplane",
+  "crates/vpp-interop",
+  "crates/vpp-conformance",
 ]
 resolver = "2"
 

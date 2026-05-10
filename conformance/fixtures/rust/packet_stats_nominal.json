@@ -1,0 +1,6 @@
+{
+  "module": "sample",
+  "forwarded": 995,
+  "dropped": 5,
+  "drop_ratio_bps": 50
+}
