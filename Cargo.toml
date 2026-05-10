@@ -1,0 +1,24 @@
+[workspace]
+members = [
+  "crates/vpp-core",
+  "crates/vpp-runtime",
+  "crates/vpp-controlplane",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+license = "Apache-2.0"
+rust-version = "1.90"
+version = "0.1.0"
+authors = ["vppinrust contributors"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+unused_crate_dependencies = "warn"
+
+[workspace.lints.clippy]
+all = "warn"
+pedantic = "warn"
+unwrap_used = "warn"
+expect_used = "warn"

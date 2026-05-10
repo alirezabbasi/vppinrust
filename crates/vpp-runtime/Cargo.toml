@@ -1,0 +1,12 @@
+[package]
+name = "vpp-runtime"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+vpp-core = { path = "../vpp-core" }
+
+[lints]
+workspace = true

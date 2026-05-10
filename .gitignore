@@ -1,3 +1,6 @@
 # Keep large source trees out of this repository root
 vppinc/
 echel-core/
+
+# Rust build artifacts
+target/
